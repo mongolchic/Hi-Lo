@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="hilo.js"></script>
+    <link href="hilo.css" rel="stylesheet" type="text/css"/>
+    <title></title>
+  </head>
+
+  <body>
+      <h1>Hi Low Game</h1>
+      <h2 id="nameID"></h2>
+      <table class="scoreboard">
+        <tr>
+          <td>Total Score</td>
+        </tr>
+        <tr>
+          <td id="score">0</td>
+        </tr>
+      </table>
+      <div class="flexContainer">
+        <p><input class="centerContent" type="text" id="inputField" placeholder="Enter your guess here"/></p>
+        <br/>
+        <p><input class="centerContent" type="button" value="guess" id="guessButton"/></p>
+        <p><input class="centerContent" type="button" value="Start new game." id="newGame"/></p>
+      </div>
+  </body>
+</html>

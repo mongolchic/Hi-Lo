@@ -1,0 +1,48 @@
+ body{
+  background-image: url("http://blogs-images.forbes.com/daviddisalvo/files/2012/02/crystal-ball.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flexContainer {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.centerContent {
+  width: 200px;
+}
+#inputField {
+  text-align: center;
+}
+
+.scoreboard {
+  float: right;
+  color: white;
+  margin-right: 50px;
+
+}
+
+table {
+  border: 3px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+#newGame {
+  margin-top: 250px;
+}
